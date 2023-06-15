@@ -1,0 +1,47 @@
+.page-section {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+
+.page-section > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 3px solid var(--primary);
+    font-size: 4vw;
+    line-height: 1.1;
+}
+
+.page-section > div {
+    flex: 0 0 77%;
+}
+
+
+#about {
+    justify-content: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#profileimage {
+    position:relative;
+    float: left;
+    width:145px;
+    height:175px;
+    bottom: 40px;
+    padding-right: 10px;
+    border-radius: 40%;
+}
+
+#profileimage:hover {
+    width: 150px;
+    height: 180px;
+    cursor: pointer;
+}

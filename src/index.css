@@ -1,13 +1,146 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+    --primary: rgba(22, 22, 29, 0.788);
+    --secondary: beige;
+    --tertiary: rgba(124, 65, 163, 0.685);
+    --dark: black;
+    --light: white;
+    --lightish: ivory; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark);
+    background-color: var(--lightish);
+    line-height: 1.5;
 }
+
+.div {
+    display:flex;
+    flex-direction: row;
+}
+
+
+#test {
+    padding-top: 85px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+h2 {
+    color: var(--tertiary);
+}
+
+
+h3 {
+    margin: 0;
+    color: var(--dark);
+}
+
+
+main {
+    margin-top: 20px;
+    margin-bottom: 45px;
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.hero {
+   background-image: url("https://images.pexels.com/photos/699919/pexels-photo-699919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 
+   background-size: 100%;
+   background-position: center;
+   min-height: 41vh;
+   color:var(--primary);
+   padding: 5% 10%;
+   display:flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   text-align: right;
+}
+
+
+
+.page-section {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+
+.page-section > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 3px solid var(--primary);
+    font-size: 4vw;
+    line-height: 1.1;
+}
+
+.page-section > div {
+    flex: 0 0 77%;
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+    header {
+        padding: 0 0 10px 0;
+        justify-content: center;
+        text-align: center;
+    }
+    header h1 {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 10vw;
+    }
+    header nav {
+        justify-content: center;
+    }
+    .page-section > h2,
+    .page-section > div {
+        flex: 0 0 100%;
+    }
+    .page-section > h2 {
+        border-right: none;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+        font-size: 7vw;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .flex-item,
+    .flex-item:first-child {
+      flex-basis: 100%;
+    }
+  
+    .flex-item:first-child {
+      min-height: 150px;
+    }
+  
+    .hero-banner {
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .contact address {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
