@@ -27,7 +27,7 @@ body {
     padding-top: 85px;
 }
 
-.flex-container {
+#flex-container {
     display: flex;
     flex-wrap:wrap;
     justify-content: center;

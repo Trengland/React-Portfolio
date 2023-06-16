@@ -6,7 +6,7 @@ function Projects() {
 <section className="page-section" id="projects">
     <h2>My Projects</h2>
 
-<div class="flex-container">
+<div id="flex-container">
       <a href="https://trengland.github.io/MoveMe-Scene/" target="_blank" className="flex-item work1">
         <div>
           <h3>Movie Recommendation App</h3>
