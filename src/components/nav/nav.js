@@ -14,6 +14,9 @@ function Nav({setCurrentPage}) {
     <button onClick={() => {
     setCurrentPage('Contact')
     }}>Contact Info</button>
+    <button onClick={() => {
+    setCurrentPage('Resume')
+    }}>Resume</button>
   </nav>
 </div>
   )
