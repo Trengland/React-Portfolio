@@ -1,13 +1,19 @@
 import React from 'react'
 import './style.css'
 
-function Nav() {
+function Nav({setCurrentPage}) {
   return (
 <div>
     <nav>
-    <a href="#about">About Me</a>
-    <a href="#projects">My Projects</a>
-    <a href="#contact">Contact Info</a>
+    <button onClick={() => {
+      setCurrentPage('About')
+    }}>About Me</button>
+    <button onClick= {() => {
+      setCurrentPage('Projects')
+    }}>My Projects</button>
+    <button onClick={() => {
+    setCurrentPage('Contact')
+    }}>Contact Info</button>
   </nav>
 </div>
   )
