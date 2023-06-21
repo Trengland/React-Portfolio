@@ -9,3 +9,14 @@ footer {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#footerAddress {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+#entireFooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}

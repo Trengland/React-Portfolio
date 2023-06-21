@@ -1,31 +1,8 @@
-nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+#navItems {
+    font-size: 25px;
+    color: var(--tertiary);
 }
 
-
-nav a {
-    text-decoration:none;
-    padding: 5px 10px;
-    color: var(--secondary);
-    margin-right: 10px;
-    background-image: linear-gradient(270deg,var(--secondary) 0%,var(--secondary)100%);
-    background-repeat: no-repeat;
-    background-size: 100% 0.2em;
-    background-position: bottom;
-    transition: all 0.25s ease-in;
-    font-size: 1.4rem;
+#about {
+    color: #fffff0;
 }
-
-
-nav a:hover {
-    background-size: 100% 100%;
-    color: var(--primary);
-    font-weight: bold;
-    cursor: pointer;
-}
-
-nav a:last-child {
-    margin-right: 0;
-} 

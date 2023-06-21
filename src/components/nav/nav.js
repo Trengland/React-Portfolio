@@ -1,25 +1,20 @@
 import React from 'react'
 import './style.css'
+import { Outlet, Link } from "react-router-dom";
 
-function Nav({setCurrentPage}) {
+function Nav() {
   return (
-<div>
-    <nav>
-    <button onClick={() => {
-      setCurrentPage('About')
-    }}>About Me</button>
-    <button onClick= {() => {
-      setCurrentPage('Projects')
-    }}>My Projects</button>
-    <button onClick={() => {
-    setCurrentPage('Contact')
-    }}>Contact Info</button>
-    <button onClick={() => {
-    setCurrentPage('Resume')
-    }}>Resume</button>
-  </nav>
+<div id="navItems" >
+    <Link id="about" to="/">About</Link>
+      <span>&nbsp;|&nbsp;</span>
+    <Link id="about" to="/projects">Projects</Link>
+      <span>&nbsp;|&nbsp;</span>
+    <Link id="about" to="/contact">Contact</Link>
+      <span>&nbsp;|&nbsp;</span>
+    <Link id="about" to="/resume">Resume</Link>   
+  <Outlet/>
 </div>
-  )
-}
+
+)}
 
 export default Nav

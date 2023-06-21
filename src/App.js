@@ -4,47 +4,40 @@ import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
 import Header from './components/header/header';
 import Projects from './components/projects/projects';
-import {useState} from 'react';
+// import {useState} from 'react';
 import Resume from './components/resume/resume';
-import { BrowserRouter, Route } from 'react-router-dom';
-import { BrowserRouter as Router, Routes } from 'react-router-dom';
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 function App() {
-const [currentPage, setCurrentPage] = useState('/');
+// const [currentPage, setCurrentPage] = useState('/');
 return (
-  <>
-<BrowserRouter>
-  <Header setCurrentPage = {
-    setCurrentPage
-  } />
-    <Router>
-      <div className="flex-column justify-center align-center min-100-vh bg-primary">
+  <> 
+
+<BrowserRouter baseName={"/"} >
+<Header/>
         <Routes>
           <Route 
             path="/" 
-            element={<About currentPage = 'About' />}
+            element={<About />}
           />
           <Route 
             path="/projects" 
-            element={<Projects currentPage = 'Projects' />}
+            element={<Projects />}
           />
           <Route 
             path="/contact" 
-            element={<Contact currentPage = 'Contact' />}
+            element={<Contact />}
           />
           <Route
             path="/resume"
-            element={<Resume currentPage = 'Resume' />}
+            element={<Resume />}
           />
           <Route 
             path="*"
             element={<About />}
           />
         </Routes>
-      </div>
-    </Router>
     <Footer/>
     </BrowserRouter>
   </>

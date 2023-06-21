@@ -1,11 +1,24 @@
 import React from 'react'
+import './style.css'
 
 function Footer() {
   return (
     <div>
-        <footer>
+        <footer id="entireFooter" >
     <div>
-      <p>Thanks for taking time to view my work!</p>
+      <address id="footerAddress" >
+        <a href="tel:+19375806559">
+          (937) 580-6559
+        </a>
+        <a href="mailto:tiffanyrengland@gmail.com">
+          Tiffanyrengland@gmail.com </a>
+          <a href="https://www.linkedin.com/in/tiffany-england-39374b55/" id="linkedin">
+              LinkedIn
+          </a>
+          <a href="https://github.com/Trengland" id="github">
+            GitHub
+          </a>
+      </address>
     </div>
   </footer>
   </div>
