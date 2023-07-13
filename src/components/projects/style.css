@@ -52,7 +52,7 @@
 }
 
 .flex-item:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #a57dbb;
 }
 
 .flex-item div {
@@ -63,6 +63,15 @@
 
 .flex-item h3 {
     font-size: 1.6rem;
+}
+
+.flex-item h3:hover{
+    color: #8146a0;
+}
+
+.work0 {
+    background-image: url("https://github.com/Trengland/react-portfolio/assets/122329399/fbaf4b86-a925-4560-baa1-7299a1d46cae");
+    background-repeat: no-repeat;
 }
 
 .work1 {

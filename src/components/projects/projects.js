@@ -8,9 +8,16 @@ function Projects() {
     <h2>My Projects</h2>
 
 <div id="flex-container">
+<a rel="noreferrer" href="https://lit-earth-19040-5018388296c4.herokuapp.com/" target="_blank" className="flex-item work0">
+        <div>
+          <h3>Coding Bookstore (eCommerce) </h3>
+          <span>..a place just for coders</span>
+        </div>
+      </a>
+
       <a rel="noreferrer" href="https://trengland.github.io/MoveMe-Scene/" target="_blank" className="flex-item work1">
         <div>
-          <h3>Movie Recommendation App</h3>
+          <h3>Movie Recommendation Website</h3>
           <span>..find the perfect movie for tonight</span>
         </div>
       </a>

@@ -6,3 +6,7 @@
 #about {
     color: #fffff0;
 }
+
+#about:hover {
+    color: var(--dark)
+}
