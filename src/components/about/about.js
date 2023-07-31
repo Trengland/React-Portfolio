@@ -22,9 +22,8 @@ function About() {
         <br></br>
         <br></br>
         <br></br>
-       <strong>Check out my <a href='react-portfolio/projects' >Projects</a> page and feel free to reach out with any questions, proposals, ideas, etc.</strong></p>
+       </p>
     </div>
-    <br></br>
   </section>
   </div>
   )
