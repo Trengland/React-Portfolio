@@ -9,8 +9,8 @@ function About() {
     <h2>About Me</h2>
     
     <div>
-      <a rel="noreferrer" target="_blank">
-      <img href="https://www.linkedin.com/in/tiffany-england-39374b55/" alt='profile' id="profileimage" src={me}/>
+      <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/tiffany-england-39374b55/">
+      <img alt='profile' id="profileimage" src={me}/>
       </a>
       <p>Highly accountable and ever-optimistic, having a strong background and expertise in Digital Marketing & Communications. I am certified through The Ohio State University as a Full-stack Web Developer. 
         <br></br>

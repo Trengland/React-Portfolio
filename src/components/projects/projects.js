@@ -22,12 +22,12 @@ function Projects() {
         </div>
       </a>
 
-      <a rel="noreferrer" href="https://bootcamp-connect-5.herokuapp.com/" target="_blank" className="flex-item work2">
+      <a rel="noreferrer" href="https://trengland.github.io/Movie-Night-Website/" target="_blank" className="flex-item work4">
         <div>
-          <h3>Bootcamp Connect</h3>
-          <span>..get to know your classmates and stay connected</span>
+          <h3>Movie Night Website</h3>
+          <span>..see what movies are coming up next, submit your request!</span>
         </div>
-        </a>
+      </a>
 
       <a rel="noreferrer" href="https://trengland.github.io/Password-Generator/" target="_blank" className="flex-item work3">
         <div>
@@ -36,14 +36,21 @@ function Projects() {
         </div>
       </a>
 
-      <a rel="noreferrer" href="https://trengland.github.io/Movie-Night-Website/" target="_blank" className="flex-item work4">
+      <a rel="noreferrer" href="https://trengland.github.io/Daily-Work-Scheduler/" target="_blank" className="flex-item work8">
         <div>
-          <h3>Movie Night Website</h3>
-          <span>..see what movies are coming up next, submit your request!</span>
+          <h3>Work Day Scheduler</h3>
+          <span>..a personalized daily work scheduler to help stay organized</span>
         </div>
       </a>
 
-      <a rel="noreferrer" href="https://trengland.github.io/Weather-Dashboard-New/" target="_blank" className="flex-item work5">
+      <a rel="noreferrer" href="https://bootcamp-connect-5.herokuapp.com/" target="_blank" className="flex-item work2">
+        <div>
+          <h3>Bootcamp Connect - Heroku Deployment</h3>
+          <span>..get to know your classmates and stay connected</span>
+        </div>
+        </a>
+
+      {/* <a rel="noreferrer" href="https://trengland.github.io/Weather-Dashboard-New/" target="_blank" className="flex-item work5">
         <div>
           <h3>Weather Dashbaord</h3>
           <span>..your very own personal weather database to fit your life</span>
@@ -55,7 +62,7 @@ function Projects() {
           <h3>Coding Quiz</h3>
           <span>..are you up for the coding quiz challenge?</span>
         </div>
-      </a>
+      </a> */}
 
       <a rel="noreferrer" href="https://trengland.github.io/prework-study-guide/" target="_blank" className="flex-item work7">
         <div>
@@ -64,12 +71,7 @@ function Projects() {
         </div>
       </a>
 
-      <a rel="noreferrer" href="https://trengland.github.io/Daily-Work-Scheduler/" target="_blank" className="flex-item work8">
-        <div>
-          <h3>Work Day Scheduler</h3>
-          <span>..a personalized daily work scheduler to help stay organized</span>
-        </div>
-      </a>
+      
 </div>
 </section>
 </div>

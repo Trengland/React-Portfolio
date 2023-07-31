@@ -60,12 +60,12 @@ function Contact() {
             <a href="mailto:tiffanyrengland@gmail.com">Tiffanyrengland@gmail.com</a>
             <br />
             Check out my LinkedIn Profile to view my work history, references, and skills:{' '}
-            <a href="https://www.linkedin.com/in/tiffany-england-39374b55/" id="linkedin">
+            <a href="https://www.linkedin.com/in/tiffany-england-39374b55/" id="linkedin" target= "_blank" >
               LinkedIn
             </a>
             <br />
             Visit my GitHub profile to see my past, present, and future projects:{' '}
-            <a href="https://github.com/Trengland" id="github">
+            <a href="https://github.com/Trengland" id="github" target= "_blank" >
               GitHub
             </a>
           </address>
