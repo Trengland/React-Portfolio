@@ -72,7 +72,7 @@ function Contact() {
         </div>
       </section>
 
-      <form
+      {/* <form
         id="form"
         onSubmit={(e) => {
           handleSubmit(e);
@@ -118,7 +118,7 @@ function Contact() {
         {messageError && <p className="error">{messageError}</p>}
 
         <button type="submit">Submit</button>
-      </form>
+      </form> */}
     </div>
   );
 }
