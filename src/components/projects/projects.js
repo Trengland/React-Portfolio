@@ -4,10 +4,17 @@ import './style.css'
 function Projects() {
   return (
 <div>
-<section className="page-section" id="projects">
+<section className="page-section" id="myprojects">
     <h2>My Projects</h2>
 
 <div id="flex-container">
+<a rel="noreferrer" href="https://github.com/n8bizall/PerformanceGains" target="_blank" className="flex-item work5">
+        <div>
+          <h3>Performance Gains, LLC </h3>
+          <span>..freelance/contract web developers</span>
+        </div>
+      </a>
+
 <a rel="noreferrer" href="https://lit-earth-19040-5018388296c4.herokuapp.com/" target="_blank" className="flex-item work0">
         <div>
           <h3>Coding Bookstore (eCommerce) </h3>
@@ -49,10 +56,9 @@ function Projects() {
           <span>..get to know your classmates and stay connected</span>
         </div>
         </a>
-
       {/* <a rel="noreferrer" href="https://trengland.github.io/Weather-Dashboard-New/" target="_blank" className="flex-item work5">
         <div>
-          <h3>Weather Dashbaord</h3>
+          <h3>Weather Dashboard</h3>
           <span>..your very own personal weather database to fit your life</span>
         </div>
       </a>
@@ -64,18 +70,18 @@ function Projects() {
         </div>
       </a> */}
 
-      <a rel="noreferrer" href="https://trengland.github.io/prework-study-guide/" target="_blank" className="flex-item work7">
+      {/* <a rel="noreferrer" href="https://trengland.github.io/prework-study-guide/" target="_blank" className="flex-item work7">
         <div>
           <h3>Full Stack Study Guide</h3>
           <span>..personal notes for html, css, js + more</span>
         </div>
-      </a>
+      </a> */}
 
-      
 </div>
 </section>
 </div>
-)
-}
+)}
+
+
 
 export default Projects

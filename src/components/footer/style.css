@@ -18,7 +18,51 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 40px;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
+
+#linkedin {
+   color:azure; 
+}   
+
+#github {
+    color:azure;
+}
+
+#email {
+    color:azure;
+}
+
+#phone {
+    color:azure;
+}
+
+#linkedin:hover {
+    color: var(--secondary);
+
+}
+
+#github:hover {
+    color: var(--secondary);
+}
+
+#email:hover {
+    color: var(--secondary);
+}
+
+#phone:hover {
+    color: var(--secondary);
+}
+
+#linkedin, #github, #email, #phone {
+    transition: transform 0.2s ease-in-out;
+}
+
+#linkedin:hover, #github:hover, #email:hover, #phone:hover {
+    color: var(--secondary);
+    transform: scale(1.1); /* You can adjust the scale factor as needed */
+}
+
+

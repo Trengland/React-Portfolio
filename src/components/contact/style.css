@@ -1,4 +1,4 @@
-#address {
+#addresscontact {
     padding-top: 90px;
     font-size: 20px;
 }
@@ -38,5 +38,11 @@
 
 
 .contact-info > div {
-    flex: 0 0 77%;
+    flex: 0 0 75%;
+}
+
+a {
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
 }

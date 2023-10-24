@@ -51,7 +51,7 @@ function Contact() {
       <section className="contact-info">
         <h2>Contact Info</h2>
 
-        <div id="address">
+        <div id="addresscontact">
           <address>
             Give me a call to discuss a project or opportunity:{' '}
             <a href="tel:+19375806559">(937) 580-6559</a>
@@ -59,13 +59,13 @@ function Contact() {
             Send me an email, I will get back with you ASAP:{' '}
             <a href="mailto:tiffanyrengland@gmail.com">Tiffanyrengland@gmail.com</a>
             <br />
-            Check out my LinkedIn Profile to view my work history, references, and skills:{' '}
-            <a href="https://www.linkedin.com/in/tiffany-england-39374b55/" id="linkedin" target= "_blank" >
+            Check out my LinkedIn to view my work history, references, and skills:{' '}
+            <a href="https://www.linkedin.com/in/tiffany-england-39374b55/" id="linkedincontact" target= "_blank" >
               LinkedIn
             </a>
             <br />
-            Visit my GitHub profile to see my past, present, and future projects:{' '}
-            <a href="https://github.com/Trengland" id="github" target= "_blank" >
+            Visit my GitHub to see my past, present, and future projects:{' '}
+            <a href="https://github.com/Trengland" id="githubcontact" target= "_blank" >
               GitHub
             </a>
           </address>

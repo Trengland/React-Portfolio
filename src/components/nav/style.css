@@ -1,12 +1,25 @@
-#navItems {
+#allnavItems {
     font-size: 25px;
     color: var(--tertiary);
 }
 
-#about {
-    color: #fffff0;
+#navItems:hover {
+    color: rgb(245, 245, 192);
 }
 
-#about:hover {
-    color: var(--dark)
+#about,
+#projects,
+#contact,
+#resume {
+    color: #fffff0;
+    margin-right: 30px; /* Adjust the margin value as needed */
+}
+
+
+#about:hover,
+#projects:hover,
+#contact:hover,
+#resume:hover {
+    color: var(--secondary);
+    font-size: 26px;
 }
